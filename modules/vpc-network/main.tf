@@ -136,7 +136,7 @@ resource "google_compute_subnetwork" "vpc_subnetwork_private" {
 # ---------------------------------------------------------------------------------------------------------------------
 
 module "network_firewall" {
-  source = "../network-firewall"
+  source = "github.com/gruntwork-io/terraform-google-network.git//modules/network-firewall?ref=v0.9.0"
 
   name_prefix = var.name_prefix
 

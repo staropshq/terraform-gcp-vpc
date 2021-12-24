@@ -18,6 +18,10 @@ variable "name_prefix" {
   type        = string
 }
 
+variable "env" {
+  type = string
+}
+
 # ---------------------------------------------------------------------------------------------------------------------
 # OPTIONAL PARAMETERS
 # Generally, these values won't need to be changed.
